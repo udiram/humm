@@ -9,7 +9,7 @@ __pycache__/
 #venv exclusion
 venv/
 
-
+.idea/
 # Distribution / packaging
 .Python
 build/
