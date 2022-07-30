@@ -9,7 +9,7 @@ __pycache__/
 #venv exclusion
 venv/
 
-.idea/
+idea/
 # Distribution / packaging
 .Python
 build/
@@ -131,3 +131,10 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+.idea/dataSources.local.xml
+.idea/dataSources.xml
+.idea/dataSources/22e45d9a-8f06-4d22-9fef-cc4c3f5bf2df.xml
+.idea/humm.iml
+.idea/workspace.xml
+.idea/humm.iml
+.idea/workspace.xml
