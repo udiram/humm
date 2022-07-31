@@ -2,22 +2,30 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aa1308c2-0c16-47e0-a3b3-8e97488e240e" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/humm.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/humm.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/humm_backend/chat/corpus_english/ai.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/humm_backend/chat/corpus_english/botprofile.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/humm_backend/chat/corpus_english/computers.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/humm_backend/chat/corpus_english/conversations.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/humm_backend/chat/corpus_english/emotion.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/humm_backend/chat/corpus_english/food.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/humm_backend/chat/corpus_english/gossip.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/humm_backend/chat/corpus_english/greetings.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/humm_backend/chat/corpus_english/health.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/humm_backend/chat/corpus_english/history.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/humm_backend/chat/corpus_english/humor.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/humm_backend/chat/corpus_english/literature.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/humm_backend/chat/corpus_english/money.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/humm_backend/chat/corpus_english/movies.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/humm_backend/chat/corpus_english/politics.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/humm_backend/chat/corpus_english/psychology.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/humm_backend/chat/corpus_english/science.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/humm_backend/chat/corpus_english/sports.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/humm_backend/chat/corpus_english/trivia.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/humm_backend/chat/downloader.sh" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Humm/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/humm_backend/chat/chatbot.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Humm/admin.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Humm/apps.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Humm/migrations/0001_initial.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Humm/migrations/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/humm_backend/chat/serializers.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Humm/models.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Humm/tests.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Humm/views.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Humm_Backend/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/humm_backend/chat/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Humm_Backend/asgi.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Humm_Backend/settings.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Humm_Backend/urls.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Humm_Backend/wsgi.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/manage.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/humm_backend/chat/chatbot.py" beforeDir="false" afterPath="$PROJECT_DIR$/humm_backend/chat/chatbot.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/humm_backend/chat/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/humm_backend/chat/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/humm_backend/humm_backend/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/humm_backend/humm_backend/settings.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,12 +67,13 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/sathy/OneDrive/Documents/GitHub/humm/humm_backend/manage.py",
+    "last_opened_file_path": "C:/Users/sathy/OneDrive/Documents/GitHub/humm/humm_backend/chat",
     "settings.editor.selected.configurable": "com.jetbrains.django.DjangoModulesConfigurable"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\sathy\OneDrive\Documents\GitHub\humm\humm_backend\chat" />
       <recent name="C:\Users\sathy\OneDrive\Documents\GitHub\humm" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -72,7 +81,29 @@
       <recent name="C:\Users\sathy\OneDrive\Documents\GitHub\humm\tests" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Django Server.Humm_backend">
+    <configuration name="chatbot" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="humm" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/humm_backend/chat" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/humm_backend/chat/chatbot.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="true" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="Humm_backend" type="Python.DjangoServer" factoryName="Django server">
       <module name="humm" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -97,6 +128,15 @@
       <option name="customRunCommand" value="" />
       <method v="2" />
     </configuration>
+    <list>
+      <item itemvalue="Django Server.Humm_backend" />
+      <item itemvalue="Python.chatbot" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.chatbot" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -113,7 +153,10 @@
       <workItem from="1659213639600" duration="3803000" />
       <workItem from="1659217564547" duration="73000" />
       <workItem from="1659217654072" duration="346000" />
-      <workItem from="1659218026783" duration="5503000" />
+      <workItem from="1659218026783" duration="5721000" />
+      <workItem from="1659232812041" duration="1618000" />
+      <workItem from="1659234953804" duration="320000" />
+      <workItem from="1659281526880" duration="7670000" />
     </task>
     <servers />
   </component>
@@ -132,6 +175,7 @@
     </option>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/humm$chatbot.coverage" NAME="chatbot Coverage Results" MODIFIED="1659284916129" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/humm_backend/chat" />
     <SUITE FILE_PATH="coverage/humm$manage.coverage" NAME="manage Coverage Results" MODIFIED="1659217847519" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/humm_backend" />
     <SUITE FILE_PATH="coverage/humm$.coverage" NAME=" Coverage Results" MODIFIED="1659195547339" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>

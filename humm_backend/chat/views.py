@@ -7,6 +7,8 @@ from .serializers import TextSerializer
 from .models import Text
 from chat import chatbot
 
+
+# chatterbot = ChatBot(**settings.CHATTERBOT)
 class TextViewSet(viewsets.ModelViewSet):
     queryset = Text.objects.all().order_by('-text_date')
     serializer_class = TextSerializer
@@ -19,6 +21,7 @@ def TextRecieved(request):
         text = json_data['text_contents']
         user_id = json_data['text_author']
         return HttpResponse("you submitted {}!".format(text))
+
 @csrf_exempt
 def BotResponse(request):
     if request.method == "POST":
@@ -27,5 +30,8 @@ def BotResponse(request):
         text = json_data['text_contents']
         user_id = json_data['text_author']
 
-        return_text = chatbot.analyze_response(text)
+        # return_text = chatbot.sentiment_analysis(text)
+        # return_text = chatbot.if_else(text)
+        return_text = chatbot.ai_chat(text)
+
         return HttpResponse(return_text)
