@@ -1,11 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="aa1308c2-0c16-47e0-a3b3-8e97488e240e" name="Changes" comment="" />
+    <list default="true" id="aa1308c2-0c16-47e0-a3b3-8e97488e240e" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/humm.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/humm.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Humm/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/humm_backend/chat/chatbot.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Humm/admin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Humm/apps.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Humm/migrations/0001_initial.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Humm/migrations/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/humm_backend/chat/serializers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Humm/models.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Humm/tests.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Humm/views.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Humm_Backend/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/humm_backend/chat/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Humm_Backend/asgi.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Humm_Backend/settings.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Humm_Backend/urls.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Humm_Backend/wsgi.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/manage.py" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -26,6 +46,9 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2Cdgb7VjKzMuuD0l7hXEsugsheQ" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -36,31 +59,44 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/Users/udiram/Documents/GitHub/humm",
-    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
+    "last_opened_file_path": "C:/Users/sathy/OneDrive/Documents/GitHub/humm/humm_backend/manage.py",
+    "settings.editor.selected.configurable": "com.jetbrains.django.DjangoModulesConfigurable"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\sathy\OneDrive\Documents\GitHub\humm" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\sathy\OneDrive\Documents\GitHub\humm" />
+      <recent name="C:\Users\sathy\OneDrive\Documents\GitHub\humm\tests" />
+    </key>
+  </component>
   <component name="RunManager">
-    <configuration name="Python tests in test_file.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Humm_backend" type="Python.DjangoServer" factoryName="Django server">
       <module name="humm" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="DJANGO_SETTINGS_MODULE" value="humm_backend.settings" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Users\sathy\OneDrive\Documents\GitHub\humm\venv\Scripts\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/humm_backend/humm_backend" />
+      <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/test_file.py&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="http://127.0.0.1:8000/" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
       <method v="2" />
     </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Python tests.Python tests in test_file.py" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -72,6 +108,12 @@
       <updated>1659137943360</updated>
       <workItem from="1659137944822" duration="148000" />
       <workItem from="1659195134004" duration="878000" />
+      <workItem from="1659197118795" duration="2443000" />
+      <workItem from="1659199698707" duration="45000" />
+      <workItem from="1659213639600" duration="3803000" />
+      <workItem from="1659217564547" duration="73000" />
+      <workItem from="1659217654072" duration="346000" />
+      <workItem from="1659218026783" duration="5503000" />
     </task>
     <servers />
   </component>
@@ -90,6 +132,7 @@
     </option>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/humm$manage.coverage" NAME="manage Coverage Results" MODIFIED="1659217847519" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/humm_backend" />
     <SUITE FILE_PATH="coverage/humm$.coverage" NAME=" Coverage Results" MODIFIED="1659195547339" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
