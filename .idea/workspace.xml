@@ -2,30 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aa1308c2-0c16-47e0-a3b3-8e97488e240e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/humm_backend/chat/corpus_english/ai.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/humm_backend/chat/corpus_english/botprofile.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/humm_backend/chat/corpus_english/computers.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/humm_backend/chat/corpus_english/conversations.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/humm_backend/chat/corpus_english/emotion.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/humm_backend/chat/corpus_english/food.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/humm_backend/chat/corpus_english/gossip.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/humm_backend/chat/corpus_english/greetings.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/humm_backend/chat/corpus_english/health.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/humm_backend/chat/corpus_english/history.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/humm_backend/chat/corpus_english/humor.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/humm_backend/chat/corpus_english/literature.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/humm_backend/chat/corpus_english/money.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/humm_backend/chat/corpus_english/movies.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/humm_backend/chat/corpus_english/politics.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/humm_backend/chat/corpus_english/psychology.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/humm_backend/chat/corpus_english/science.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/humm_backend/chat/corpus_english/sports.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/humm_backend/chat/corpus_english/trivia.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/humm_backend/chat/downloader.sh" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/humm_backend/chat/chatbot.py" beforeDir="false" afterPath="$PROJECT_DIR$/humm_backend/chat/chatbot.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/humm_backend/chat/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/humm_backend/chat/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/humm_backend/humm_backend/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/humm_backend/humm_backend/settings.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,16 +39,16 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/sathy/OneDrive/Documents/GitHub/humm/humm_backend/chat",
-    "settings.editor.selected.configurable": "com.jetbrains.django.DjangoModulesConfigurable"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/sathy/OneDrive/Documents/GitHub/humm/humm_backend/chat&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.django.DjangoModulesConfigurable&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\sathy\OneDrive\Documents\GitHub\humm\humm_backend\chat" />
@@ -156,7 +134,9 @@
       <workItem from="1659218026783" duration="5721000" />
       <workItem from="1659232812041" duration="1618000" />
       <workItem from="1659234953804" duration="320000" />
-      <workItem from="1659281526880" duration="7670000" />
+      <workItem from="1659281526880" duration="7939000" />
+      <workItem from="1659292495132" duration="1830000" />
+      <workItem from="1659358937013" duration="596000" />
     </task>
     <servers />
   </component>
