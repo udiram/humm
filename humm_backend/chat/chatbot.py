@@ -7,7 +7,7 @@ print(os.getcwd())
 bot = ChatBot('Bot')
 trainer = ChatterBotCorpusTrainer(bot)
 
-corpus_path = r'C:\Users\sathy\OneDrive\Documents\GitHub\humm\humm_backend\chat\corpus_english/'
+corpus_path = os.path.join(os.path.dirname(__file__), 'corpus_english/')
 
 for file in os.listdir(corpus_path):
     trainer.train(corpus_path + file)
