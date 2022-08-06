@@ -8,7 +8,7 @@ __pycache__/
 
 #venv exclusion
 venv/
-
+humm-frontend/node_modules/
 idea/
 # Distribution / packaging
 .Python
@@ -141,3 +141,5 @@ dmypy.json
 .idea/workspace.xml
 humm_backend/humm_backend/models/124M/model.ckpt.data-00000-of-00001
 *.xml
+*.xml
+.idea/workspace.xml
