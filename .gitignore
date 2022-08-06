@@ -6,8 +6,10 @@ __pycache__/
 # C extensions
 *.so
 
+#venv exclusion
 venv/
 
+idea/
 # Distribution / packaging
 .Python
 build/
@@ -129,3 +131,12 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+.idea/dataSources.local.xml
+.idea/dataSources.xml
+.idea/dataSources/22e45d9a-8f06-4d22-9fef-cc4c3f5bf2df.xml
+.idea/humm.iml
+.idea/workspace.xml
+.idea/humm.iml
+.idea/workspace.xml
+.idea/workspace.xml
+humm_backend/humm_backend/models/124M/model.ckpt.data-00000-of-00001
