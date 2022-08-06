@@ -3,8 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="aa1308c2-0c16-47e0-a3b3-8e97488e240e" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/humm_backend/chat/chatbot.py" beforeDir="false" afterPath="$PROJECT_DIR$/humm_backend/chat/chatbot.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/humm_backend/humm_backend/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/humm_backend/humm_backend/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/humm_backend/db.sqlite3-wal" beforeDir="false" afterPath="$PROJECT_DIR$/humm_backend/db.sqlite3-wal" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -154,7 +153,7 @@
       <workItem from="1659232812041" duration="1618000" />
       <workItem from="1659234953804" duration="320000" />
       <workItem from="1659281526880" duration="7670000" />
-      <workItem from="1659385935600" duration="4292000" />
+      <workItem from="1659385935600" duration="5544000" />
     </task>
     <servers />
   </component>
