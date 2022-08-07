@@ -143,3 +143,4 @@ humm_backend/humm_backend/models/124M/model.ckpt.data-00000-of-00001
 *.xml
 *.xml
 .idea/workspace.xml
+RandD/data/glove.6B.50d.txt

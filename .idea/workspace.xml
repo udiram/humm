@@ -2,16 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aa1308c2-0c16-47e0-a3b3-8e97488e240e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/RandD/class_debug.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RandD/keras_clf.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RandD/ml_classifier.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RandD/tokenizer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RandD/bin_clf.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RandD/data/glove.6B.50d.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RandD/data/test_phrases.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RandD/reddit_df_CNN.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RandD/reddit_df_DNN.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RandD/reddit_df_ML.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RandD/test_clf.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/humm_backend/chat/migrations/0001_initial.py" beforeDir="false" afterPath="$PROJECT_DIR$/humm_backend/chat/migrations/0001_initial.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/humm_backend/chat/migrations/0002_text_delete_chat.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/humm_backend/db.sqlite3-shm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/humm_backend/db.sqlite3-wal" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/humm_backend/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/humm_backend/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RandD/class_debug.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/RandD/class_debug.ipynb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,16 +47,16 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/sathy/OneDrive/Documents/GitHub/humm/RandD/data",
-    "settings.editor.selected.configurable": "com.jetbrains.django.DjangoModulesConfigurable"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/sathy/OneDrive/Documents/GitHub/humm/RandD/data&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.django.DjangoModulesConfigurable&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\sathy\OneDrive\Documents\GitHub\humm\RandD\data" />
@@ -171,6 +170,8 @@
       <workItem from="1659281526880" duration="7939000" />
       <workItem from="1659292495132" duration="1830000" />
       <workItem from="1659358937013" duration="596000" />
+      <workItem from="1659825648670" duration="2596000" />
+      <workItem from="1659829314637" duration="5369000" />
     </task>
     <servers />
   </component>
