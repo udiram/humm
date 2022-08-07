@@ -27,7 +27,7 @@ preshed==3.0.6
 pydantic==1.9.1
 pymongo==3.12.3
 pyparsing==3.0.9
-python-dateutil==2.7.5
+pytz==2022.1
 python-decouple==3.6
 pytz==2022.1
 PyYAML==3.13
@@ -48,3 +48,4 @@ typing_extensions==4.3.0
 tzdata==2022.1
 urllib3==1.26.11
 wasabi==0.10.1
+python-dateutil==2.7.5
