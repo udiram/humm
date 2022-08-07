@@ -1,19 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="38d0cd3b-172e-46fc-a82b-49a35185d275" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/humm.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/humm.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/humm-frontend/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/humm-frontend/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/humm-frontend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/humm-frontend/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/humm-frontend/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/humm-frontend/tsconfig.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/humm_backend/chat/chatbot.py" beforeDir="false" afterPath="$PROJECT_DIR$/humm_backend/chat/chatbot.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/humm_backend/db.sqlite3-shm" beforeDir="false" afterPath="$PROJECT_DIR$/humm_backend/db.sqlite3-shm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/humm_backend/db.sqlite3-wal" beforeDir="false" afterPath="$PROJECT_DIR$/humm_backend/db.sqlite3-wal" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/humm_backend/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/humm_backend/requirements.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" />
-    </list>
+    <list default="true" id="2f23ae44-3168-4768-bb97-ce0f85300600" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
