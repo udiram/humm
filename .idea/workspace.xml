@@ -2,15 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aa1308c2-0c16-47e0-a3b3-8e97488e240e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/RandD/bin_clf.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RandD/data/glove.6B.50d.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RandD/data/test_phrases.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RandD/reddit_df_CNN.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RandD/reddit_df_DNN.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RandD/reddit_df_ML.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RandD/test_clf.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RandD/EDA.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RandD/GBM.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RandD/RandomForest_clf.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RandD/dimensionality_reduction.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RandD/feature_Engineering.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RandD/inference.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RandD/inference.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RandD/something.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RandD/xgb_notebook_classifier.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RandD/class_debug.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/RandD/class_debug.ipynb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,11 +65,12 @@
       <recent name="C:\Users\sathy\OneDrive\Documents\GitHub\humm" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\sathy\OneDrive\Documents\GitHub\humm\RandD" />
       <recent name="C:\Users\sathy\OneDrive\Documents\GitHub\humm" />
       <recent name="C:\Users\sathy\OneDrive\Documents\GitHub\humm\tests" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.keras_clf">
+  <component name="RunManager" selected="Python.inference">
     <configuration name="chatbot" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="humm" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -91,6 +93,28 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="inference" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="humm" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/RandD" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/RandD/inference.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="keras_clf" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="humm" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -105,6 +129,28 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/RandD/keras_clf.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="something" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="humm" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/RandD" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\sathy\OneDrive\Documents\GitHub\humm\RandD\something.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -139,11 +185,15 @@
     </configuration>
     <list>
       <item itemvalue="Django Server.Humm_backend" />
+      <item itemvalue="Python.inference" />
+      <item itemvalue="Python.something" />
       <item itemvalue="Python.keras_clf" />
       <item itemvalue="Python.chatbot" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.inference" />
+        <item itemvalue="Python.something" />
         <item itemvalue="Python.keras_clf" />
         <item itemvalue="Python.chatbot" />
       </list>
@@ -172,6 +222,8 @@
       <workItem from="1659358937013" duration="596000" />
       <workItem from="1659825648670" duration="2596000" />
       <workItem from="1659829314637" duration="5369000" />
+      <workItem from="1659886047927" duration="10225000" />
+      <workItem from="1659901186221" duration="2444000" />
     </task>
     <servers />
   </component>
@@ -191,8 +243,11 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/humm$chatbot.coverage" NAME="chatbot Coverage Results" MODIFIED="1659386717582" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/humm_backend/chat" />
+    <SUITE FILE_PATH="coverage/humm$something.coverage" NAME="something Coverage Results" MODIFIED="1659905072826" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/RandD" />
     <SUITE FILE_PATH="coverage/humm$keras_clf.coverage" NAME="keras_clf Coverage Results" MODIFIED="1659745827452" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/RandD" />
+    <SUITE FILE_PATH="coverage/humm$inference.coverage" NAME="inference Coverage Results" MODIFIED="1659905368267" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/RandD" />
     <SUITE FILE_PATH="coverage/humm$manage.coverage" NAME="manage Coverage Results" MODIFIED="1659217847519" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/humm_backend" />
+    <SUITE FILE_PATH="coverage/humm$xgboost.coverage" NAME="something Coverage Results" MODIFIED="1659900115930" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/RandD" />
     <SUITE FILE_PATH="coverage/humm$.coverage" NAME=" Coverage Results" MODIFIED="1659195547339" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
