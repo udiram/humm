@@ -3,7 +3,16 @@
   <component name="ChangeListManager">
     <list default="true" id="aa1308c2-0c16-47e0-a3b3-8e97488e240e" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/humm-frontend/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/humm-frontend/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/humm-frontend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/humm-frontend/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/humm-frontend/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/humm-frontend/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/humm-frontend/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/humm-frontend/src/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/humm_backend/db.sqlite3-shm" beforeDir="false" afterPath="$PROJECT_DIR$/humm_backend/db.sqlite3-shm" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/humm_backend/db.sqlite3-wal" beforeDir="false" afterPath="$PROJECT_DIR$/humm_backend/db.sqlite3-wal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/logo/0.5x/humm_logo@0.5x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/logo/0.75x/humm_logo@0.75x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/logo/1x/humm_logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/logo/2x/humm_logo@2x.png" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,6 +50,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -154,6 +164,8 @@
       <workItem from="1659234953804" duration="320000" />
       <workItem from="1659281526880" duration="7670000" />
       <workItem from="1659385935600" duration="5544000" />
+      <workItem from="1659755467049" duration="2918000" />
+      <workItem from="1659822879182" duration="445000" />
     </task>
     <servers />
   </component>
