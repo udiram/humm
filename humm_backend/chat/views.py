@@ -6,7 +6,7 @@ from rest_framework import viewsets
 from .serializers import TextSerializer
 from .models import Text
 from chat import chatbot
-
+from char import ml_inference
 
 # chatterbot = ChatBot(**settings.CHATTERBOT)
 class TextViewSet(viewsets.ModelViewSet):
@@ -32,6 +32,6 @@ def BotResponse(request):
 
         # return_text = chatbot.sentiment_analysis(text)
         # return_text = chatbot.if_else(text)
-        return_text = chatbot.ai_chat(text)
-
+        # return_text = chatbot.ai_chat(text)
+        return_text = ml_inference.predict_from_text(text)
         return HttpResponse(return_text)
