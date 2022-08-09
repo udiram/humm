@@ -77,5 +77,6 @@ def predict_from_text(text):
     print("The predicted category using the SVM model is %s." % (category_svc))
     print("The conditional probability is: %a" % (prediction_svc_proba.max() * 100))
 
+    return category_svc
 
 # predict_from_text("I am feeling sad today.")
