@@ -1,5 +1,6 @@
 import pickle
 import pandas as pd
+import os
 import nltk
 from nltk.corpus import stopwords
 from nltk.tokenize import punkt
@@ -7,7 +8,7 @@ from nltk.corpus.reader import wordnet
 from nltk.stem import WordNetLemmatizer
 from sklearn.feature_extraction.text import TfidfVectorizer
 
-path_svm = 'Models/' + 'best_xgb.pickle'
+path_svm = os.path.join(os.path.dirname(__file__), 'Models/' + 'best_xgb.pickle')
 with open(path_svm, 'rb') as data:
     svc_model = pickle.load(data)
 

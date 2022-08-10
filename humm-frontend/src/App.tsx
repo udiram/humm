@@ -39,7 +39,7 @@ class App extends Component<AppProps, AppState> {
 
     let message: message = {
       text_contents: event.currentTarget.message.value,
-      text_date: dateFormatter.format(new Date()),
+      text_date: new Date().toISOString(),
       text_author: "me",
     };
 
@@ -52,7 +52,7 @@ class App extends Component<AppProps, AppState> {
         let response_text = res.data;
         let response: message = {
           text_contents: response_text,
-          text_date: dateFormatter.format(new Date()),
+          text_date: new Date().toISOString(),
           text_author: "bot",
         };
         this.state.messages.push(response);
