@@ -1,6 +1,7 @@
 import "bootstrap/dist/css/bootstrap.css";
 import whiteLogo from "./images/logo/1x/humm_white.png";
 import "./navbar.css";
+import React from 'react'
 
 export default function Navbar() {
   return (
