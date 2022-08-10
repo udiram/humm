@@ -13,7 +13,7 @@ from chatterbot import ChatBot  # import the chatbot
 from chatterbot.trainers import ChatterBotCorpusTrainer
 import os
 print(os.getcwd())
-bot = ChatBot('Bot')
+bot = ChatBot('ramu')
 trainer = ChatterBotCorpusTrainer(bot)
 
 corpus_path = os.path.join(os.path.dirname(__file__), 'corpus_english/')

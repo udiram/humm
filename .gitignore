@@ -12,7 +12,7 @@ __pycache__/
 
 #venv exclusion
 venv/
-
+humm-frontend/node_modules/
 idea/
 # Distribution / packaging
 .Python
@@ -144,9 +144,8 @@ dmypy.json
 .idea/workspace.xml
 .idea/workspace.xml
 humm_backend/humm_backend/models/124M/model.ckpt.data-00000-of-00001
-*.pickle
+*.xml
+*.xml
+.idea/workspace.xml
 RandD/data/glove.6B.50d.txt
-.idea/workspace.xml
-humm_backend/db.sqlite3-shm
-humm_backend/db.sqlite3-wal
-.idea/workspace.xml
+*.pickle
