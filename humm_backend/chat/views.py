@@ -33,5 +33,6 @@ def BotResponse(request):
         # return_text = chatbot.sentiment_analysis(text)
         # return_text = chatbot.if_else(text)
         return_text = chatbot.ai_chat(text)
+        
 
         return HttpResponse(return_text)
