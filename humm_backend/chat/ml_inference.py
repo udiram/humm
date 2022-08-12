@@ -12,7 +12,7 @@ path_svm = os.path.join(os.path.dirname(__file__), 'Models/' + 'best_xgb.pickle'
 with open(path_svm, 'rb') as data:
     svc_model = pickle.load(data)
 
-path_tfidf = 'Pickles/' + 'tfidf.pickle'
+path_tfidf = os.path.join(os.path.dirname(__file__), 'Pickles/' + 'tfidf.pickle')
 with open(path_tfidf, 'rb') as data:
     tfidf = pickle.load(data)
 

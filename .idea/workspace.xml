@@ -3,11 +3,12 @@
   <component name="ChangeListManager">
     <list default="true" id="aa1308c2-0c16-47e0-a3b3-8e97488e240e" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/humm_backend/chat/chatbot.py" beforeDir="false" afterPath="$PROJECT_DIR$/humm_backend/chat/chatbot.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/humm-frontend/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/humm-frontend/src/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/humm-frontend/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/humm-frontend/src/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/humm-frontend/src/navbar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/humm-frontend/src/navbar.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/humm-frontend/src/types.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/humm-frontend/src/types.d.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/humm_backend/chat/ml_inference.py" beforeDir="false" afterPath="$PROJECT_DIR$/humm_backend/chat/ml_inference.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/humm_backend/chat/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/humm_backend/chat/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/humm_backend/humm_backend/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/humm_backend/humm_backend/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,13 +56,14 @@
       <recent name="C:\Users\sathy\OneDrive\Documents\GitHub\humm" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\mathu\Downloads\humm\humm_backend\chat\Pickles" />
       <recent name="C:\Users\mathu\Downloads\humm\humm_backend\chat\Models" />
       <recent name="C:\Users\sathy\OneDrive\Documents\GitHub\humm\RandD" />
       <recent name="C:\Users\sathy\OneDrive\Documents\GitHub\humm" />
       <recent name="C:\Users\sathy\OneDrive\Documents\GitHub\humm\tests" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.inference">
+  <component name="RunManager" selected="Django Server.Humm_backend">
     <configuration name="chatbot" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="humm" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -215,7 +217,7 @@
       <workItem from="1659829314637" duration="5369000" />
       <workItem from="1659886047927" duration="10225000" />
       <workItem from="1659901186221" duration="2851000" />
-      <workItem from="1660099474772" duration="2935000" />
+      <workItem from="1660099474772" duration="4755000" />
     </task>
     <servers />
   </component>
