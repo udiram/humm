@@ -19,3 +19,20 @@ code {
 .bg-humm-orange {
   color: #f8941c
 }
+
+.vh-50 {
+  height: 50vh
+}
+
+.vw-95 {
+  width: 95vw;
+}
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: white;
+  opacity: 1; /* Firefox */
+}
+
+*:focus {
+  outline: none;
+}

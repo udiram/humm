@@ -6,9 +6,6 @@
       <change beforePath="$PROJECT_DIR$/humm-frontend/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/humm-frontend/src/App.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/humm-frontend/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/humm-frontend/src/index.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/humm-frontend/src/navbar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/humm-frontend/src/navbar.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/humm-frontend/src/types.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/humm-frontend/src/types.d.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/humm_backend/chat/ml_inference.py" beforeDir="false" afterPath="$PROJECT_DIR$/humm_backend/chat/ml_inference.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/humm_backend/chat/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/humm_backend/chat/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -217,7 +214,7 @@
       <workItem from="1659829314637" duration="5369000" />
       <workItem from="1659886047927" duration="10225000" />
       <workItem from="1659901186221" duration="2851000" />
-      <workItem from="1660099474772" duration="4755000" />
+      <workItem from="1660099474772" duration="6260000" />
     </task>
     <servers />
   </component>
