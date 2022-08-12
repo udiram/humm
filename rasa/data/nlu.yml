@@ -1,0 +1,167 @@
+version: "3.1"
+
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - moin
+    - hey there
+    - let's go
+    - hey dude
+    - goodmorning
+    - goodevening
+    - good afternoon
+
+- intent: goodbye
+  examples: |
+    - cu
+    - good by
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+
+- intent: affirm
+  examples: |
+    - yes
+    - y
+    - indeed
+    - of course
+    - that sounds good
+    - correct
+
+- intent: deny
+  examples: |
+    - no
+    - n
+    - never
+    - I don't think so
+    - don't like that
+    - no way
+    - not really
+
+- intent: treatment_anonymity
+  examples: |
+    - yes my anonymity is protected
+    - yeah my agreement states so
+    - yepp the company mental health advisor has signed an agreement
+    - yup, remains anonymous
+    - no, can be disclosed
+    - nope, doesnt stay anonymous
+    - idk i am not aware
+    - i dont know i am not fully aware
+
+- intent: mood_great
+  examples: |
+    - perfect
+    - great
+    - amazing
+    - feeling like a king
+    - wonderful
+    - I am feeling very good
+    - I am great
+    - I am amazing
+    - I am going to save the world
+    - super stoked
+    - extremely good
+    - so so perfect
+    - so good
+    - so perfect
+
+- intent: mood_unhappy
+  examples: |
+    - my day was horrible
+    - I am sad
+    - I don't feel very well
+    - I am disappointed
+    - super sad
+    - I'm so sad
+    - sad
+    - very sad
+    - unhappy
+    - not good
+    - not very good
+    - extremly sad
+    - so saad
+    - so sad
+
+- intent: bot_challenge
+  examples: |
+    - are you a bot?
+    - are you a human?
+    - am I talking to a bot?
+    - am I talking to a human?
+
+- intent: wellbeing
+  examples: |
+    - I am not feeling well
+    - i am unwell
+    - I do not feel well today
+
+- intent: gender
+  examples: |
+    - male
+    - female
+    - queer
+
+- intent: history_mental_illness
+  examples: |
+    - yes i have history of mental illness in my family
+    - yeah my family does have history
+    - yepp my relatives are suffering from a form of mental illness
+    - no i dont have history of mental illness in my family
+    - nope my family doesnt have history
+    - i dont know not that i am aware of..
+    
+
+- intent: health_resources
+  examples: |
+    - yes there are plenty
+    - yeah i am aware of all the options
+    - yepp i know 
+    - yup i know them
+    - no i am not aware of my company provided health resources
+    - nope there arent meany health resources
+    - idk i am unaware
+    - i dont know i am not aware
+
+- intent: discussing_mental_health
+  examples: |
+    - yes it will have bad consequences
+    - yeah what if they ask me to take unpaid leave
+    - yepp that would be nasty
+    - yup that will make him feel i cant handle work pressure and get stressed out easily
+    - no i dont think it would affect much if i discuss
+    - nope it wont cause any consequences
+    - idk i havent really thought of it 
+
+- intent: serious_mental_health
+  examples: |
+    - yes i do feel so
+    - yeah i do
+    - yepp he does
+    - yup he does take both of them seriously
+    - no he doesnt
+    - nope he just doesnt
+    - idk i havent been in such a situation
+    - i dont know i havent been in such a situation
+    - maybe but i havent been in such a situation
+
+- intent: negative_consequences_mental_coworker
+  examples: |
+    - yes i have
+    - yeah i have
+    - yepp i have
+    - yup i have
+    - no i havent
+    - nope i havent
+    - yes kind of
