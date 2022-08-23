@@ -5,14 +5,12 @@ import React from 'react'
 
 export default function Navbar() {
   return (
-    <div>
-      <div className="row vw-100">
-        <nav className="navbar navbar-expand-lg bg-humm-orange">
+    <div className="row mx-0 px-0">
+        <nav className="navbar navbar-expand-lg bg-humm-orange shadow-sm">
           <a className="navbar-brand col-1">
             <img className="mx-2 img-fluid" src={whiteLogo}></img>
           </a>
         </nav>
-      </div>
     </div>
   );
 }

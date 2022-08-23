@@ -1,5 +1,6 @@
 import pickle
 import pandas as pd
+import os
 import nltk
 from nltk.corpus import stopwords
 from nltk.tokenize import punkt
@@ -7,11 +8,11 @@ from nltk.corpus.reader import wordnet
 from nltk.stem import WordNetLemmatizer
 from sklearn.feature_extraction.text import TfidfVectorizer
 
-path_svm = 'Models/' + 'best_xgb.pickle'
+path_svm = os.path.join(os.path.dirname(__file__), 'Models/' + 'best_xgb.pickle')
 with open(path_svm, 'rb') as data:
     svc_model = pickle.load(data)
 
-path_tfidf = 'Pickles/' + 'tfidf.pickle'
+path_tfidf = os.path.join(os.path.dirname(__file__), 'Pickles/' + 'tfidf.pickle')
 with open(path_tfidf, 'rb') as data:
     tfidf = pickle.load(data)
 
@@ -77,5 +78,6 @@ def predict_from_text(text):
     print("The predicted category using the SVM model is %s." % (category_svc))
     print("The conditional probability is: %a" % (prediction_svc_proba.max() * 100))
 
+    return category_svc
 
 # predict_from_text("I am feeling sad today.")

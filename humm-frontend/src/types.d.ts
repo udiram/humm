@@ -3,3 +3,8 @@ interface message {
     text_date: string;
     text_author: string;
 }
+
+interface messageContainer {
+    message: message;
+    dateKey: string;
+}
