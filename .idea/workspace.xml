@@ -3,7 +3,12 @@
   <component name="ChangeListManager">
     <list default="true" id="aa1308c2-0c16-47e0-a3b3-8e97488e240e" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/humm_backend/chat/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/humm_backend/chat/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/humm-frontend/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/humm-frontend/tsconfig.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/humm_backend/chat/migrations/0001_initial.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/humm_backend/chat/migrations/0002_text_delete_chat.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/humm_backend/db.sqlite3-shm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/humm_backend/db.sqlite3-wal" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/humm_backend/humm_backend/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/humm_backend/humm_backend/settings.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

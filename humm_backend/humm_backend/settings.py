@@ -40,6 +40,8 @@ INSTALLED_APPS = [
     'rest_framework',
     'chat',
     'corsheaders',
+    'users.apps.UsersConfig',
+    'conversations.apps.ConversationsConfig'
 ]
 
 MIDDLEWARE = [
@@ -79,8 +81,12 @@ WSGI_APPLICATION = 'humm_backend.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'ndhfymew',
+        'USER': 'ndhfymew',
+        'PASSWORD': '7gCkPEd6Nks3Oow4p2wFr-aLjsym1nyV',
+        'HOST': 'heffalump.db.elephantsql.com',
+        # 'PORT': '5432'
     }
 }
 
