@@ -2,13 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aa1308c2-0c16-47e0-a3b3-8e97488e240e" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/humm_backend/api/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/humm_backend/api/serializers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/humm_backend/api/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/humm_backend/api/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/humm-frontend/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/humm-frontend/tsconfig.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/humm_backend/chat/migrations/0001_initial.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/humm_backend/chat/migrations/0002_text_delete_chat.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/humm_backend/db.sqlite3-shm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/humm_backend/db.sqlite3-wal" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/humm_backend/conversations/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/humm_backend/conversations/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/humm_backend/conversations/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/humm_backend/conversations/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/humm_backend/humm_backend/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/humm_backend/humm_backend/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/humm_backend/humm_backend/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/humm_backend/humm_backend/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/humm_backend/users/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/humm_backend/users/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/humm_backend/users/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/humm_backend/users/models.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,11 +50,11 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/humm_backend/chat/data" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
-  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+  }
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\mathu\Downloads\humm\humm_backend\chat\data" />

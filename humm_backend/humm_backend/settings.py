@@ -40,9 +40,29 @@ INSTALLED_APPS = [
     'rest_framework',
     'chat',
     'corsheaders',
-    'users.apps.UsersConfig',
-    'conversations.apps.ConversationsConfig'
+    'users',
+    'conversations',
+    'projects'
 ]
+
+REST_FRAMEWORK = {
+    'DEFAULT_AUTHENTICATION_CLASSES': (
+        'rest_framework_simplejwt.authentication.JWTAuthentication',
+    )
+}
+
+from datetime import timedelta
+
+SIMPLE_JWT = {
+    'ACCESS_TOKEN_LIFETIME': timedelta(days=10000),
+    'REFRESH_TOKEN_LIFETIME': timedelta(days=1),
+}
+
+
+AUTHENTICATION_BACKENDS = [
+    'django.contrib.auth.backends.ModelBackend',
+]
+
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
@@ -82,10 +102,10 @@ WSGI_APPLICATION = 'humm_backend.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'ndhfymew',
-        'USER': 'ndhfymew',
-        'PASSWORD': '7gCkPEd6Nks3Oow4p2wFr-aLjsym1nyV',
-        'HOST': 'heffalump.db.elephantsql.com',
+        'NAME': 'shvxnuaw',
+        'USER': 'shvxnuaw',
+        'PASSWORD': 'hPdhQJ5kV5BECkDBI524H_rZYes1ilR3',
+        'HOST': 'jelani.db.elephantsql.com',
         # 'PORT': '5432'
     }
 }
