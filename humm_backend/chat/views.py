@@ -1,6 +1,7 @@
 import json
 from django.views.decorators.csrf import csrf_exempt
 from django.http import HttpResponse
+from django.http import JsonResponse
 from django.shortcuts import render
 from rest_framework import viewsets
 from .serializers import TextSerializer
@@ -35,5 +36,6 @@ def BotResponse(request):
         # return_text = chatbot.if_else(text)
         # return_text = chatbot.ai_chat(text)
         # return_text = ml_inference.predict_from_text(text)
-        return_text = frequency_analysis.main_analysis(text)
-        return HttpResponse(return_text)
+        return_list = frequency_analysis.main_analysis(text)
+        return_list_json = json.dumps(return_list)
+        return HttpResponse(return_list_json)

@@ -3,8 +3,8 @@ from nltk import tokenize
 from operator import itemgetter
 import os
 
-def get_highest_frequency(dic_element, num):
-    result = dict(sorted(dic_element.items(), key=itemgetter(1), reverse=True)[:num])
+def get_highest_frequency(dic_element):
+    result = [key for key, value in dic_element.items() if value == max(dic_element.values())]
     return result
 
 def main_analysis(text):
@@ -31,31 +31,31 @@ def main_analysis(text):
     print(total_words_filter)
 
     tf = {}
-    monograms = df_monogram['ngram'].unique()
+    monograms = dict(zip(df_monogram['ngram'], df_monogram['disorder']))
 
     for word in total_words_filter:
         if word in monograms:
-            if word in tf:
-                tf[word] += 1
+            disorder = monograms[word]
+            if disorder in tf:
+                tf[disorder] += 1
             else:
-                tf[word] = 1
+                tf[disorder] = 1
 
     print(tf)
 
-    sorted_highest_frequency = get_highest_frequency(tf, 5)
-    print(sorted_highest_frequency)
-
-    keylist = list(sorted_highest_frequency.keys())
-    print(keylist)
+    diagnosis = get_highest_frequency(tf)
+    print(diagnosis)
 
     disorder_list = []
 
-    for i in keylist:
-       df_sorting = df_monogram.loc[df_monogram['ngram'] == i]
-       disorder_list.append(df_sorting['disorder'].values[0])
+    for disorders in diagnosis:
+        separated_disorders = disorders.split('-')
+        for disorder in separated_disorders:
+            if disorder not in disorder_list:
+                disorder_list.append(disorder)
+    print(diagnosis)
     print(disorder_list)
 
-    if len(disorder_list) <= 0:
-        disorder_list.append("normal")
-
-    return disorder_list[0]
+    if len(disorder_list) == 0:
+        disorder_list.append('normal')
+    return disorder_list

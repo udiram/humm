@@ -2,12 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aa1308c2-0c16-47e0-a3b3-8e97488e240e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/RandD/dataframe_experiment.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RandD/mental_health_eda.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RandD/mental_health_keywords.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/humm_backend/chat/data/mental_health_keywords.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/humm_backend/chat/frequency_analysis.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RandD/mental_health_eda.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/RandD/mental_health_eda.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/humm_backend/chat/frequency_analysis.py" beforeDir="false" afterPath="$PROJECT_DIR$/humm_backend/chat/frequency_analysis.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/humm_backend/chat/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/humm_backend/chat/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -221,7 +218,9 @@
       <workItem from="1659886047927" duration="10225000" />
       <workItem from="1659901186221" duration="2851000" />
       <workItem from="1660099474772" duration="6260000" />
-      <workItem from="1661038894674" duration="11114000" />
+      <workItem from="1661038894674" duration="11438000" />
+      <workItem from="1662146116062" duration="1068000" />
+      <workItem from="1662147205765" duration="6455000" />
     </task>
     <servers />
   </component>
