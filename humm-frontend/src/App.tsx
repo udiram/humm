@@ -59,10 +59,10 @@ class App extends Component<AppProps, AppState> {
     axios
       .post("http://localhost:8000/bot_analysis/", sentMessage.message)
       .then((res) => {
-        let responseText = res.data;
+        let responseText: string[] = res.data;
         let responseMessage: messageContainer = {
           message: {
-            text_contents: responseText,
+            text_contents: responseText.toString(),
             text_date: dateFormatter.format(new Date()),
             text_author: "bot",
           },
@@ -114,10 +114,10 @@ class App extends Component<AppProps, AppState> {
                         }
                       >
                         <div className="m-2 bg-humm-orange rounded">
-                          <div className="text-white m-2">
+                          <div className="text-white m-2 text-break">
                             {messageContainer.message.text_date}
                           </div>
-                          <div className="text-white m-2">
+                          <div className="text-white m-2 text-break">
                             {messageContainer.message.text_contents}
                           </div>
                         </div>
