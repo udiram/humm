@@ -1,0 +1,35 @@
+{
+  "ptsd": {
+    "ptsd": "ptsd"
+  },
+  "depression": {
+    "depression": "depression"
+  },
+  "general": {
+    "general": "general"
+  },
+  "bipolar": {
+    "bipolar": "bipolar"
+  },
+  "suicide_attempt": {
+    "suicide_attempt": "suicide_attempt"
+  },
+  "schizophrenia": {
+    "schizophrenia": "schizophrenia"
+  },
+  "borderline": {
+    "borderline": "borderline"
+  },
+  "suicidal_ideation": {
+    "suicidal_ideation": "suicidal_ideation"
+  },
+  "anxiety": {
+    "anxiety": "anxiety"
+  },
+  "panic": {
+    "panic": "panic"
+  },
+  "eating": {
+    "eating": "eating"
+  }
+}

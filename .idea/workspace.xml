@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
+<<<<<<< Updated upstream
     <list default="true" id="aa1308c2-0c16-47e0-a3b3-8e97488e240e" name="Changes" comment="" />
+=======
+    <list default="true" id="aa1308c2-0c16-47e0-a3b3-8e97488e240e" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/humm-frontend/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/humm-frontend/src/App.tsx" afterDir="false" />
+    </list>
+>>>>>>> Stashed changes
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -217,7 +224,8 @@
       <workItem from="1662146116062" duration="1068000" />
       <workItem from="1662147205765" duration="6455000" />
       <workItem from="1662913773178" duration="1839000" />
-      <workItem from="1663028013419" duration="1107000" />
+      <workItem from="1663028013419" duration="2462000" />
+      <workItem from="1663098658214" duration="614000" />
     </task>
     <servers />
   </component>

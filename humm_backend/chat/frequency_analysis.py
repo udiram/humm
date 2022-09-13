@@ -7,6 +7,7 @@ def get_highest_frequency(dic_element):
     return result
 
 def main_analysis(text):
+    print(text)
     path = os.path.join(os.path.dirname(__file__), 'data/' + 'mental_health_keywords.csv')
     df = pd.read_csv(path)
 
