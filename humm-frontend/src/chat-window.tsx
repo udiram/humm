@@ -2,8 +2,9 @@ import React, { Component } from "react";
 import "./App.css";
 import axios from "axios";
 import "bootstrap/dist/css/bootstrap.css";
-import resources from "./resources.json"
+import resources from "./resources.json";
 import "./chat-window.css";
+import Linkify from "react-linkify";
 
 interface AppProps {}
 
@@ -84,13 +85,16 @@ class ChatWindow extends Component<AppProps, AppState> {
   }
 
   processDiagnosis(diagnosis: string[]): string {
-    let responseMessage: string = "Thank you for your response! Here are a list of resources you may find helpful: \n";
+    let responseMessage: string =
+      "Thank you for your response! Here are a list of resources you may find helpful: \n";
     console.log(resources);
     for (let disorder of diagnosis) {
       let disorderKey = disorder as keyof typeof resources;
       let disorderResources = resources[disorderKey];
       for (const [key, value] of Object.entries(disorderResources)) {
-        responseMessage += ('- ' + key + ': ' + value + '\n');
+        if (!responseMessage.includes(key)) {
+          responseMessage += "- " + key + ": " + value + "\n";
+        }
       }
     }
     return responseMessage;
@@ -163,9 +167,11 @@ class ChatWindow extends Component<AppProps, AppState> {
                         <div className="text-white m-2 text-break">
                           {messageContainer.message.text_date}
                         </div>
-                        <div className="text-white m-2 text-break">
-                          {messageContainer.message.text_contents}
-                        </div>
+                        <Linkify>
+                          <div className="text-white m-2 text-break">
+                            {messageContainer.message.text_contents}
+                          </div>
+                        </Linkify>
                       </div>
                     </div>
                     <div

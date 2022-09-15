@@ -1,35 +1,56 @@
 {
   "ptsd": {
-    "ptsd": "ptsd"
+    "PTSD ASSOCIATION OF CANADA": "http://www.ptsdassociation.com/about-ptsd",
+    "Veterans Crisis Line": "(800) 273-8255 (ext 1)",
+    "National Hopeline Network": "1-800-442-4673"
   },
   "depression": {
-    "depression": "depression"
+    "Canadian Mental Health Association": "https://ontario.cmha.ca/documents/understanding-and-finding-help-for-depression/",
+    "ConnexOntario": "1-866-531-2600",
+    "Kids Help Phone": "1 800 668-6868"
   },
   "general": {
-    "general": "general"
+    "Canadian Mental Health Association": "https://cmha.ca/find-help/how-to-get-help/",
+    "Suicide and Crisis Lifeline": "1-833-456-4566",
+    "Crisis text line": "Text \"HELLO\" to 741741"
   },
   "bipolar": {
-    "bipolar": "bipolar"
+    "International Society for Bipolar Disorders": "https://www.isbd.org/",
+    "Suicide and Crisis Lifeline": "1-833-456-4566",
+    "Crisis text line": "Text \"HELLO\" to 741741"
   },
   "suicide_attempt": {
-    "suicide_attempt": "suicide_attempt"
+    "American Foundation for Suicide Prevention": "https://afsp.org/find-support/ive-made-attempt",
+    "Suicide and Crisis Lifeline": "1-833-456-4566"
   },
   "schizophrenia": {
-    "schizophrenia": "schizophrenia"
+    "Canadian Mental Health Association": "https://ontario.cmha.ca/documents/schizophrenia/",
+    "Kids Help Phone": "1 800 668-6868",
+    "Crisis text line": "Text \"HELLO\" to 741741"
   },
   "borderline": {
-    "borderline": "borderline"
+    "Emotions Matter": "https://emotionsmatterbpd.org/",
+    "Suicide and Crisis Lifeline": "1-833-456-4566",
+    "Kids Help Phone": "1 800 668-6868"
   },
   "suicidal_ideation": {
-    "suicidal_ideation": "suicidal_ideation"
+    "Canadian Association for Suicide Prevention": "http://suicideprevention.ca",
+    "Suicide and Crisis Lifeline": "1-833-456-4566",
+    "Kids Help Phone": "1 800 668-6868"
   },
   "anxiety": {
-    "anxiety": "anxiety"
+    "Anxiety Canada": "https://www.anxietycanada.com/",
+    "Spectra Helpline": "905-459-7777",
+    "Kids Help Phone": "1 800 668-6868"
   },
   "panic": {
-    "panic": "panic"
+    "The Anxiety and Depression Association of America": "www.adaa.org/understanding-anxiety/panic-disorder-agoraphobia",
+    "Government of Canada Mental Health Support": "1-866-585-0445",
+    "Kids Help Phone": "1 800 668-6868"
   },
   "eating": {
-    "eating": "eating"
+    "National Eating Disorder Information Centre": "https://nedic.ca/",
+    "United Way": "211",
+    "Kids Help Phone": "1 800 668-6868"
   }
 }
