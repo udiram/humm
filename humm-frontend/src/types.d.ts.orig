@@ -1,0 +1,13 @@
+interface message {
+    text_contents: string;
+    text_date: string;
+    text_author: string;
+<<<<<<< HEAD
+}
+
+interface messageContainer {
+    message: message;
+    dateKey: string;
+=======
+>>>>>>> 5868d5b57c9787cb7e93771207fdd07ebba32fe6
+}
