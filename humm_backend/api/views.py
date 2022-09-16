@@ -51,7 +51,7 @@ def UsersConversations(request, id):
 
 
 @api_view(['PUT'])
-# @permission_classes([IsAuthenticated])
+@permission_classes([IsAuthenticated])
 def CreateConversation(request):
     serializer = ConversationSerializer(data=request.data)
     if serializer.is_valid():
@@ -61,6 +61,7 @@ def CreateConversation(request):
 
 
 @api_view(['DELETE'])
+@permission_classes([IsAuthenticated])
 def DeleteConversation(request, id):
     try:
         conversation = Conversation.objects.get(pk=id)
@@ -72,6 +73,7 @@ def DeleteConversation(request, id):
 
 
 @api_view(['PUT'])
+@permission_classes([IsAuthenticated])
 def CreateUser(request):
     # user = User.objects.create_user(validated_data['username'], validated_data['email'], validated_data['password'])
     serializer = UserSerializer(data=request.data)
@@ -81,6 +83,7 @@ def CreateUser(request):
     return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)
 
 @api_view(['DELETE'])
+@permission_classes([IsAuthenticated])
 def DeleteUser(request, id):
     try:
         user = User.objects.get(pk=id)
