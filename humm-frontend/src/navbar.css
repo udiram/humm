@@ -1,7 +1,10 @@
-.bg-humm-orange {
-    background-color: #f8941c
-}
-
 .vw-95 {
     width: 95vw;
+}
+
+.btn {
+    min-height: 50px;
+    font-size: 17px;
+    color: white;
+    font-weight: bold;
 }
