@@ -1,4 +1,5 @@
 from django.test import TestCase
+from chat import frequency_analysis
 
 class YourTestClass(TestCase):
     @classmethod
@@ -21,4 +22,9 @@ class YourTestClass(TestCase):
     def test_one_plus_one_equals_two(self):
         print("Method: test_one_plus_one_equals_two.")
         self.assertEqual(1 + 1, 2)
+
+    def freq_analysis(self):
+        print("Method: freq_analysis.")
+        self.assertEqual(frequency_analysis.main_analysis('hello'), ['general'])
+        self.assertEqual(frequency_analysis.main_analysis('trauma'), ['bipolar', 'panic', 'ptsd'])
 # Create your tests here.
