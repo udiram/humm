@@ -7,7 +7,6 @@ from rest_framework import viewsets
 from .serializers import TextSerializer
 from .models import Text
 # from chat import chatbot
-from chat import ml_inference
 from chat import frequency_analysis
 
 # chatterbot = ChatBot(**settings.CHATTERBOT)

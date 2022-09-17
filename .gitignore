@@ -1,3 +1,7 @@
+.idea/workspace.xml
+humm_backend/db.sqlite3-shm
+humm_backend/db.sqlite3-wal
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
@@ -145,3 +149,4 @@ humm_backend/humm_backend/models/124M/model.ckpt.data-00000-of-00001
 .idea/workspace.xml
 RandD/data/glove.6B.50d.txt
 *.pickle
+.idea/workspace.xml
