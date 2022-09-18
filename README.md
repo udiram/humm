@@ -10,6 +10,11 @@
 <br />
 ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/udiram/humm)
 <br />
+![GitHub repo size](https://img.shields.io/github/repo-size/USER/REPOSITORY?style=plastic)
+![GitHub language count](https://img.shields.io/github/languages/count/USER/REPOSITORY?style=plastic)
+![GitHub top language](https://img.shields.io/github/languages/top/USER/REPOSITORY?style=plastic)
+![GitHub last commit](https://img.shields.io/github/last-commit/USER/REPOSITORY?color=red&style=plastic)
+<br />
 <br />
 ![GitHub Contributors Image](https://contrib.rocks/image?repo=udiram/humm)
 
