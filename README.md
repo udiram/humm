@@ -23,8 +23,9 @@
 [![Backend Status](https://img.shields.io/website-up-down-green-red/http/shields.io.svg)](https://humm-biotech.herokuapp.com/)
 <br />
 <br />
+[![Npm package version](https://badgen.net/npm/v/express)](https://npmjs.com/package/express)
 
-![GitHub Contributors Image](https://contrib.rocks/image?repo=udiram/humm)
+<!-- ![GitHub Contributors Image](https://contrib.rocks/image?repo=udiram/humm) -->
 <br />
 <br />
 [![forthebadge made-with-python](http://ForTheBadge.com/images/badges/made-with-python.svg)](https://www.python.org/)
