@@ -8,6 +8,9 @@
 [![Django CI](https://github.com/udiram/humm/actions/workflows/django.yml/badge.svg)](https://github.com/udiram/humm/actions/workflows/django.yml)
 [![Python application](https://github.com/udiram/humm/actions/workflows/python-app.yml/badge.svg)](https://github.com/udiram/humm/actions/workflows/python-app.yml)<br />
 ![Known Vulnerabilities](https://snyk.io/test/github/udiram/humm/badge.svg)
-![GitHub Contributors Image](https://contrib.rocks/image?repo=udiram/humm)
 <br />
 ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/udiram/humm)
+<br />
+<br />
+![GitHub Contributors Image](https://contrib.rocks/image?repo=udiram/humm)
+
