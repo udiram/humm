@@ -126,7 +126,7 @@ USE_TZ = True
 #
 # STATIC_URL = '/static/'
 STATIC_ROOT = r'C:\Users\sathy\OneDrive\Documents\GitHub\humm\venv\Lib\site-packages\rest_framework\static'
-STATIC_URL = r'C:\Users\sathy\OneDrive\Documents\GitHub\humm\venv\Lib\site-packages\rest_framework\static'
+# STATIC_URL = r'C:\Users\sathy\OneDrive\Documents\GitHub\humm\venv\Lib\site-packages\rest_framework\static'
 
 STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
 
