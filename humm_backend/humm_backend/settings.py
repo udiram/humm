@@ -135,6 +135,7 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 CORS_ORIGIN_WHITELIST = [
     'http://localhost:3000',
+    'https://63274ddfd82ea7000828411e--wondrous-alpaca-3092da.netlify.app/',
 ]
 
 django_heroku.settings(locals())
