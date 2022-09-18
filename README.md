@@ -27,5 +27,8 @@
 [![GitHub branches](https://badgen.net/github/branches/Naereen/Strapdown.js)](https://github.com/Naereen/Strapdown.js/)
 
 
+[![GitHub commits](https://badgen.net/github/commits/Naereen/Strapdown.js)](https://GitHub.com/Naereen/StrapDown.js/commit/)
+
+
 [![forthebadge made-with-python](http://ForTheBadge.com/images/badges/made-with-python.svg)](https://www.python.org/)
 
