@@ -2,7 +2,6 @@ import pandas as pd
 from nltk import tokenize
 import nltk
 nltk.download('punkt')
-
 import os
 
 def get_highest_frequency(dic_element):
