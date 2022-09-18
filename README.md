@@ -24,10 +24,10 @@
 [![Minimum node.js version](https://badgen.net/npm/node/express)](https://npmjs.com/package/express)
 
 
-[![GitHub branches](https://badgen.net/github/branches/Naereen/Strapdown.js)](https://github.com/udiram/humm/)
+[![GitHub branches](https://badgen.net/github/commits/udiram/humm)](https://github.com/udiram/humm/)
 
 
-[![GitHub commits](https://badgen.net/github/commits/Naereen/Strapdown.js)](https://GitHub.com/udiram/humm/commit/)
+[![GitHub commits](https://badgen.net/github/commits/udiram/humm)](https://GitHub.com/udiram/humm/commit/)
 
 
 [![forthebadge made-with-python](http://ForTheBadge.com/images/badges/made-with-python.svg)](https://www.python.org/)
