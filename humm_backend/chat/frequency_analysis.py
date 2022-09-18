@@ -35,7 +35,6 @@ def main_analysis(text):
                 else:
                     tf[disorder] = 1
 
-    print(tf)
     diagnosis = get_highest_frequency(tf)
 
     if (diagnosis == ['general']):
