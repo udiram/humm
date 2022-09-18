@@ -1,6 +1,5 @@
 import unittest
-
-# from django.test import TestCase
+from django.test import TestCase
 from humm_backend.chat import frequency_analysis
 
 class YourTestClass(TestCase):
