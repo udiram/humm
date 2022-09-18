@@ -6,7 +6,6 @@ from .serializers import TextSerializer
 from .models import Text
 from chat import frequency_analysis
 
-# chatterbot = ChatBot(**settings.CHATTERBOT)
 class TextViewSet(viewsets.ModelViewSet):
     queryset = Text.objects.all().order_by('-text_date')
     serializer_class = TextSerializer
