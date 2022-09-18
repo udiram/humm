@@ -1,17 +1,9 @@
 import unittest
 
-from my_sum import sum
 
 from humm_backend.chat import frequency_analysis
 
 class TestSum(unittest.TestCase):
-    def test_list_int(self):
-        """
-        Test that it can sum a list of integers
-        """
-        data = [1,2,3]
-        result = sum(data)
-        self.assertEqual(result, 6)
     def test_freq_analysis(self):
         print("Method: freq_analysis.")
         self.assertEqual(frequency_analysis.main_analysis('hello'), ['general'])
