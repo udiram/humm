@@ -8,6 +8,6 @@
 [![Python application](https://github.com/udiram/humm/actions/workflows/python-app.yml/badge.svg)](https://github.com/udiram/humm/actions/workflows/python-app.yml)<br />
 ![GitHub Contributors Image](https://contrib.rocks/image?repo=udiram/humm)
 <br />
-![Depfu](https://img.shields.io/depfu/udiram/humm)
+![Hits](https://hitcounter.pythonanywhere.com/count/tag.svg?url=https%3A%2F%2Fgithub.com%2Fudiram%2Fhumm)
 <br />
 ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/udiram/humm)
