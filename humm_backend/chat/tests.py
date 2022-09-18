@@ -1,6 +1,7 @@
 import unittest
 from humm_backend.chat import frequency_analysis
 
+
 class TestSum(unittest.TestCase):
     def test_freq_analysis(self):
         print("Method: freq_analysis.")
