@@ -1,5 +1,5 @@
 import unittest
-from humm_backend.chat import frequency_analysis
+from chat import frequency_analysis
 
 
 class TestSum(unittest.TestCase):
