@@ -26,10 +26,6 @@
 [![Npm package version](https://badgen.net/npm/v/express)](https://npmjs.com/package/express)
 [![Minimum node.js version](https://badgen.net/npm/node/express)](https://npmjs.com/package/express)
 
-<!-- ![GitHub Contributors Image](https://contrib.rocks/image?repo=udiram/humm) -->
-<br />
-<br />
-
 [![GitHub branches](https://badgen.net/github/branches/Naereen/Strapdown.js)](https://github.com/Naereen/Strapdown.js/)
 <br />
 <br />
