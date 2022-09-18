@@ -5,5 +5,5 @@
 [![CircleCI](https://dl.circleci.com/status-badge/img/gh/udiram/humm/tree/backend-release.svg?style=svg)](https://dl.circleci.com/status-badge/redirect/gh/udiram/humm/tree/backend-release)
 [![Dependency Review](https://github.com/udiram/humm/actions/workflows/dependency-review.yml/badge.svg)](https://github.com/udiram/humm/actions/workflows/dependency-review.yml)
 [![Django CI](https://github.com/udiram/humm/actions/workflows/django.yml/badge.svg)](https://github.com/udiram/humm/actions/workflows/django.yml)
-[![Python application](https://github.com/udiram/humm/actions/workflows/python-app.yml/badge.svg)](https://github.com/udiram/humm/actions/workflows/python-app.yml)
+[![Python application](https://github.com/udiram/humm/actions/workflows/python-app.yml/badge.svg)](https://github.com/udiram/humm/actions/workflows/python-app.yml)<br />
 ![GitHub Contributors Image](https://contrib.rocks/image?repo=udiram/humm)
