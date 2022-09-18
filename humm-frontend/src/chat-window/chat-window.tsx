@@ -112,7 +112,7 @@ class ChatWindow extends Component<AppProps, AppState> {
 
     if (sentMessage.includes("EOM") && !this.state.receivedDiagnosis) {
       axios
-        .post("http://localhost:8000/bot_analysis/", this.combineUserMessages())
+        .post("https://humm-biotech.herokuapp.com//bot_analysis/", this.combineUserMessages())
         .then((res) => {
           let response: string[] = res.data;
           this.updateMessages(
