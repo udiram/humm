@@ -15,6 +15,7 @@
 ![GitHub last commit](https://img.shields.io/github/last-commit/udiram/humm?color=red&style=plastic)
 <br />
 [![Website shields.io](https://img.shields.io/website-up-down-green-red/http/shields.io.svg)](https://hummbiotech.netlify.app/)
+[![Backend Status](https://img.shields.io/website-up-down-green-red/http/shields.io.svg)](https://humm-biotech.herokuapp.com/)
 <br />
 ![GitHub Contributors Image](https://contrib.rocks/image?repo=udiram/humm)
 
