@@ -9,7 +9,6 @@
 [![Python application](https://github.com/udiram/humm/actions/workflows/python-app.yml/badge.svg)](https://github.com/udiram/humm/actions/workflows/python-app.yml)
 <br />
 ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/udiram/humm)
-<br />
 ![GitHub repo size](https://img.shields.io/github/repo-size/udiram/humm?style=plastic)
 ![GitHub language count](https://img.shields.io/github/languages/count/udiram/humm?style=plastic)
 ![GitHub top language](https://img.shields.io/github/languages/top/udiram/humm?style=plastic)
