@@ -9,3 +9,5 @@
 ![GitHub Contributors Image](https://contrib.rocks/image?repo=udiram/humm)
 <br />
 ![Depfu](https://img.shields.io/depfu/udiram/humm)
+<br />
+![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/udiram/humm)
