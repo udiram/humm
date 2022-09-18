@@ -27,7 +27,7 @@ SECRET_KEY = 'django-insecure-noum2^v$^e!%sh57ss+qitjftr=$x+#)dmbz$u87*8a@omp55j
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['https://humm-biotech.herokuapp.com/']
 
 
 # Application definition
