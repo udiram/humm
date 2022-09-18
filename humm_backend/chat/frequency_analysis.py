@@ -1,7 +1,7 @@
 import pandas as pd
 from nltk import tokenize
-# import nltk
-# nltk.download('punkt')
+import nltk
+nltk.download('punkt')
 
 import os
 

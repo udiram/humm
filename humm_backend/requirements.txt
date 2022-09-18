@@ -5,3 +5,11 @@ django-cors-headers==3.13.0
 djangorestframework==3.13.1
 nltk==3.7
 regex==2022.9.13
+scikit-learn
+pandas
+dj-database-url
+django-heroku
+gunicorn
+psycopg2
+python-decouple
+whitenoise
