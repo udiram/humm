@@ -1,14 +1,12 @@
 import React, { Component } from "react";
-import "./App.css"
-import './humm-colours.css';
+import '../humm-colours.css';
 import axios from "axios";
 import "bootstrap/dist/css/bootstrap.css";
-import resources from "./resources.json";
-import "./chat-window.css";
+import resources from "../resources.json";
 import Linkify from "react-linkify";
-import HummLogo from "./humm-logo";
+import HummLogo from "../humm-logo";
 
-interface AppProps {}
+interface AppProps { }
 
 interface AppState {
   messages: messageContainer[];
@@ -89,7 +87,7 @@ class ChatWindow extends Component<AppProps, AppState> {
   processDiagnosis(diagnosis: string[]): string {
     let responseMessage: string =
       "Thank you for your response! Here are a list of resources you may find helpful: \n";
-    console.log(resources);
+      
     for (let disorder of diagnosis) {
       let disorderKey = disorder as keyof typeof resources;
       let disorderResources = resources[disorderKey];
@@ -105,7 +103,8 @@ class ChatWindow extends Component<AppProps, AppState> {
   sendMessage(event: React.FormEvent<HTMLFormElement>) {
     event.preventDefault();
 
-    let sentMessage: string = event.currentTarget.message.value;
+    let sentMessage: string = this.state.textContent;
+    this.setState({textContent: ''});
 
     if (!sentMessage) return;
 
@@ -141,18 +140,18 @@ class ChatWindow extends Component<AppProps, AppState> {
   render() {
     return (
       <div className="py-4 h-100">
-        <HummLogo/>
+        <HummLogo />
         <div className="row h-100">
           <div className="col-3"></div>
           <div className="col-6 overflow-auto bg-light rounded-top h-100 shadow-sm">
-            <div id="chat-window">
+            <div id="chat-window" data-testid="chat-messages">
               {this.state.messages.map((messageContainer) => {
                 return (
                   <div className="row">
                     <div
                       className={
                         messageContainer.message.text_author ==
-                        conversationParticipants.bot
+                          conversationParticipants.bot
                           ? undefined
                           : "col-7"
                       }
@@ -161,7 +160,7 @@ class ChatWindow extends Component<AppProps, AppState> {
                       key={messageContainer.dateKey}
                       className={
                         messageContainer.message.text_author ==
-                        conversationParticipants.bot
+                          conversationParticipants.bot
                           ? "col-5 text-start"
                           : "col-5 text-end"
                       }
@@ -180,7 +179,7 @@ class ChatWindow extends Component<AppProps, AppState> {
                     <div
                       className={
                         messageContainer.message.text_author ==
-                        conversationParticipants.bot
+                          conversationParticipants.bot
                           ? "col-7"
                           : undefined
                       }
@@ -192,10 +191,11 @@ class ChatWindow extends Component<AppProps, AppState> {
           </div>
           <div className="col-3"></div>
         </div>
-        <form className="row" onSubmit={(event) => this.sendMessage(event)}>
+        <form data-testid="form" className="row" onSubmit={(event) => this.sendMessage(event)}>
           <div className="col-3"></div>
           <div className="col-6 d-flex justify-content-center bg-secondary rounded-bottom shadow-sm">
             <input
+              data-testid="text-input"
               className="col-11 border-0 bg-transparent text-white rounded"
               type="text"
               name="message"
@@ -203,7 +203,7 @@ class ChatWindow extends Component<AppProps, AppState> {
               value={this.state.textContent}
               onChange={(event) => this.onHandleChange(event)}
             ></input>
-            <button type="submit" className="col-1 border-0 bg-transparent">
+            <button data-testid="text-submit" type="submit" className="col-1 border-0 bg-transparent">
               <i className="fa fa-paper-plane humm-orange"></i>
             </button>
           </div>

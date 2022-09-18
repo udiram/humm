@@ -1,7 +1,7 @@
 import "bootstrap/dist/css/bootstrap.css";
-import whiteLogo from "./images/logo/1x/humm_white.png";
+import whiteLogo from "../images/logo/1x/humm_white.png";
 import "./navbar.css";
-import './humm-colours.css';
+import '../humm-colours.css';
 import { Link } from "react-router-dom";
 
 export default function Navbar() {

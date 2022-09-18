@@ -3,12 +3,12 @@ import logo from "./images/logo/2x/humm_logo@2x.png";
 import "./humm-colours.css";
 import axios from "axios";
 import "bootstrap/dist/css/bootstrap.css";
-import Navbar from "./navbar";
-import ChatWindow from "./chat-window";
-import ChatView from "./chat-view";
-import ChatList from "./chat-list";
-import Login from "./login";
-import Register from "./register";
+import Navbar from "./navbar/navbar";
+import ChatWindow from "./chat-window/chat-window";
+import ChatView from "./chat-view/chat-view";
+import ChatList from "./chat-list/chat-list";
+import Login from "./login/login";
+import Register from "./register/register";
 import './index.css'
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 

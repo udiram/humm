@@ -1,12 +1,12 @@
 import React, { Component } from "react";
-import "./App.css";
-import "./humm-colours.css";
+import "../App.css";
+import "../humm-colours.css";
 import axios from "axios";
 import "bootstrap/dist/css/bootstrap.css";
-import resources from "./resources.json";
-import "./chat-window.css";
+import resources from "../resources.json";
+import "../index.css";
 import Linkify from "react-linkify";
-import HummLogo from "./humm-logo";
+import HummLogo from "../humm-logo";
 import { Link } from "react-router-dom";
 
 interface AppProps {}
