@@ -10,7 +10,6 @@
     "@fortawesome/react-fontawesome": "^0.2.0",
     "@svgr/webpack": "^6.3.1",
     "@testing-library/jest-dom": "^5.16.4",
-    "@testing-library/react": "^13.3.0",
     "@testing-library/user-event": "^13.5.0",
     "@types/jest": "^27.5.2",
     "@types/node": "^16.11.47",
@@ -29,6 +28,8 @@
     "web-vitals": "^2.1.4"
   },
   "devDependencies": {
+    "@testing-library/react": "^13.4.0",
+    "jest-watch-typeahead": "^0.6.5",
     "react-scripts": "5.0.1"
   },
   "scripts": {

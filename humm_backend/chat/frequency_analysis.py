@@ -1,5 +1,8 @@
 import pandas as pd
 from nltk import tokenize
+# import nltk
+# nltk.download('punkt')
+
 import os
 
 def get_highest_frequency(dic_element):
@@ -24,21 +27,21 @@ def main_analysis(text):
 
     for word in total_words_filter:
         if word in monograms:
-            disorder = monograms[word]
-            if disorder in tf:
-                tf[disorder] += 1
-            else:
-                tf[disorder] = 1
+            disordersText = monograms[word]
+            separated_disorders = disordersText.split('-')
+            for disorder in separated_disorders:
+                if disorder in tf:
+                    tf[disorder] += 1
+                else:
+                    tf[disorder] = 1
 
+    print(tf)
     diagnosis = get_highest_frequency(tf)
-    disorder_list = []
 
-    for disorders in diagnosis:
-        separated_disorders = disorders.split('-')
-        for disorder in separated_disorders:
-            if disorder not in disorder_list:
-                disorder_list.append(disorder)
+    if (diagnosis == ['general']):
+        tf.pop("general")
+        diagnosis = get_highest_frequency(tf)
 
-    if len(disorder_list) == 0:
-        disorder_list.append('general')
-    return disorder_list
+    if len(diagnosis) == 0:
+        diagnosis.append('general')
+    return diagnosis

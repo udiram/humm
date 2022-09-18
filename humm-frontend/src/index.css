@@ -14,3 +14,7 @@
 *:focus {
   outline: none;
 }
+
+div {
+  white-space: pre-wrap;
+}

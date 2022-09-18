@@ -1,5 +1,0 @@
-Running reddit data set
-Best Accuracy : 0.6657
-{'vocab_size': 31686, 'num_filters': 64, 'maxlen': 100, 'kernel_size': 5, 'embedding_dim': 50}
-Test Accuracy : 0.6527
-
