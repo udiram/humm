@@ -48,4 +48,14 @@ workflows:
           filters:
             branches:
               only:
-                - backend-release 
+                - backend-release
+              ignore:
+                - release
+                - frontend-release
+                - frontend-staging
+                - backend-staging
+                - research_and_development
+                - app_no_randd
+                - Udbhav
+                - Mehtab
+                - mvp2-Merged
