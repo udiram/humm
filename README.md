@@ -1,4 +1,4 @@
 # hummm
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/39b578bb-c060-4593-88fe-ae3d103ace31/deploy-status)](https://app.netlify.com/sites/hummbiotech/deploys)
-[![Heroku](https://humm-biotech.herokuapp.com/?app=angularjs-crypto&style=flat&svg=1&root=index.html)]
+[![Heroku CI Status](https://humm-biotech.herokuapp.com/last.svg)](https://dashboard.heroku.com/pipelines/{pipeline ID}/tests)
