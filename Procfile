@@ -1,1 +1,1 @@
-web: gunicorn <core_package_name>.wsgi --log-file -
+web: gunicorn humm_backend.humm_backend.wsgi --log-file -
