@@ -30,11 +30,11 @@ class ChatWindow extends Component<AppProps, AppState> {
     };
 
     this.updateMessages(
-      "Hello! How are you feeling today?",
+      "Hello! My name is Humm! How are you feeling today?",
       conversationParticipants.bot
     );
     this.updateMessages(
-      "When you feel that you are finished providing an answer, please type 'EOM' for 'end of message'!",
+      "When you feel that you are finished providing an answer, please type 'I'm finished Humm'!",
       conversationParticipants.bot
     );
   }
@@ -110,7 +110,7 @@ class ChatWindow extends Component<AppProps, AppState> {
 
     this.updateMessages(sentMessage, conversationParticipants.user);
 
-    if (sentMessage.includes("EOM") && !this.state.receivedDiagnosis) {
+    if (sentMessage.toLowerCase().includes("i'm finished humm") && !this.state.receivedDiagnosis) {
       axios
         .post("https://humm-biotech.herokuapp.com/bot_analysis/", this.combineUserMessages())
         .then((res) => {
