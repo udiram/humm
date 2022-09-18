@@ -8,4 +8,4 @@
 [![Python application](https://github.com/udiram/humm/actions/workflows/python-app.yml/badge.svg)](https://github.com/udiram/humm/actions/workflows/python-app.yml)<br />
 ![GitHub Contributors Image](https://contrib.rocks/image?repo=udiram/humm)
 <br />
-![Profile View Counter](https://komarev.com/ghpvc/?username=Your_GitHub_Username)
+![Hits](https://hitcounter.pythonanywhere.com/count/tag.svg?url = https://github.com/udiram/humm/)
