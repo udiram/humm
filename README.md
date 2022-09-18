@@ -29,5 +29,10 @@
 <!-- ![GitHub Contributors Image](https://contrib.rocks/image?repo=udiram/humm) -->
 <br />
 <br />
+
+[![GitHub branches](https://badgen.net/github/branches/Naereen/Strapdown.js)](https://github.com/Naereen/Strapdown.js/)
+<br />
+<br />
+
 [![forthebadge made-with-python](http://ForTheBadge.com/images/badges/made-with-python.svg)](https://www.python.org/)
 
