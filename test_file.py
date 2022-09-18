@@ -1,10 +1,10 @@
 import unittest
 
-from django.test import TestCase
+# from django.test import TestCase
 from humm_backend.chat import frequency_analysis
 
 class YourTestClass(TestCase):
-    # @classmethod
+    @classmethod
     # def setUpTestData(cls):
     #     print("setUpTestData: Run once to set up non-modified data for all class methods.")
     #     pass
