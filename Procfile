@@ -1,1 +1,1 @@
-web: gunicorn humm_backend.humm_backend.wsgi --log-file -
+web: gunicorn --pythonpath humm_backend humm_backend.wsgi
