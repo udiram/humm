@@ -1,8 +1,9 @@
 import pandas as pd
 from nltk import tokenize
+import os
+
 import nltk
 nltk.download('punkt')
-import os
 
 def get_highest_frequency(dic_element):
     result = [key for key, value in dic_element.items() if value == max(dic_element.values())]
