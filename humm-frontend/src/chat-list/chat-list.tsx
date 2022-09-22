@@ -9,6 +9,9 @@ import Linkify from "react-linkify";
 import HummLogo from "../humm-logo";
 import { Link } from "react-router-dom";
 
+// 
+// testing commit pipeline with netlify
+// 
 interface AppProps {}
 
 interface AppState {
