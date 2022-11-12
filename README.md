@@ -47,7 +47,7 @@ HUMM is a smart chatbot that provides cognitive behavioural therapy, resources, 
 
 | Color             | Hex                                                                |
 | ----------------- | ------------------------------------------------------------------ |
-| Orange | ![#f3933d](https://via.placeholder.com/10/f3933d?text=+) #f3933d |
+| Orange | ![#f3933d](https://placehold.co/15x15/f3933d/f3933d.png) #f3933d |
 | Grey | ![#f8f9fa](https://via.placeholder.com/10/f8f9fa?text=+) #f8f9fa |
 | Dark Grey | ![#6c757d](https://via.placeholder.com/10/6c757d?text=+) #6c757d |
 | White | ![#ffffff](https://via.placeholder.com/10/ffffff?text=+) #ffffff |
