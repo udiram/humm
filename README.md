@@ -43,7 +43,7 @@ HUMM is a smart chatbot that provides cognitive behavioural therapy, resources, 
 
 ![App Screenshot](https://i.imgur.com/tfO8Xi0.png)
 
-
+<!--- 
 ## API Reference
 
 (0) Getting Bearer Authentication Token ~ GET request
@@ -117,6 +117,7 @@ Example call: http://127.0.0.1:8000/api/UsersConversations/1
 - same auth as (1)
 - endpoint: http://127.0.0.1:8000/api/DeleteUser/~PUT USER ID HERE~/
 
+--->
 ## Color Reference
 
 | Color             | Hex                                                                |
