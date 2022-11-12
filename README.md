@@ -25,11 +25,3 @@
 
 
 [![forthebadge made-with-python](http://ForTheBadge.com/images/badges/made-with-python.svg)](https://www.python.org/)
-
-
-HUMM is a smart chatbot that provides cognitive behavioural therapy, resources, and other proven therapeutic techniques to help users improve their mental health. HUMM provides short term and long term support by chatting with users to help them deal with daily troubles. HUMM stands out by being programmed to assist a wide variety of struggles while still following guidelines set by the American Psychological Association. HUMM’s mission is to create a resource that provides every user with support, guidance, and someone to talk to whenever they need it. 
-
-# Features
-- Smart diagnosis tool supporting a wide variety of struggles classifed in DSM-5
-- Intelligent chatbot providing coping techniques, therapeutic solutions and calming strategies
-- Personalized resources provided including extra information and hotlines specific to situation and location 
