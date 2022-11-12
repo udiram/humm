@@ -25,3 +25,39 @@
 
 
 [![forthebadge made-with-python](http://ForTheBadge.com/images/badges/made-with-python.svg)](https://www.python.org/)
+
+![Logo](https://hummbiotech.netlify.app/static/media/humm_logo@2x.fb77c8efa2edb3440189.png)
+
+
+# HUMM
+
+HUMM is a smart chatbot that provides cognitive behavioural therapy, resources, and other proven therapeutic techniques to help users improve their mental health. HUMM provides short term and long term support by chatting with users to help them deal with daily troubles. HUMM stands out by being programmed to assist a wide variety of struggles while still following guidelines set by the American Psychological Association. HUMM’s mission is to create a resource that provides every user with support, guidance, and someone to talk to whenever they need it. 
+
+# Features
+- Smart diagnosis tool supporting a wide variety of struggles classifed in DSM-5
+- Intelligent chatbot providing coping techniques, therapeutic solutions and calming strategies
+- Personalized resources provided including extra information and hotlines specific to situation and location 
+
+
+## Screenshots
+
+![App Screenshot](https://i.imgur.com/tfO8Xi0.png)
+
+## Color Reference
+
+| Color             | Hex                                                                |
+| ----------------- | ------------------------------------------------------------------ |
+| Orange | ![#f3933d](https://via.placeholder.com/10/f3933d?text=+) #f3933d |
+| Grey | ![#f8f9fa](https://via.placeholder.com/10/f8f9fa?text=+) #f8f9fa |
+| Dark Grey | ![#6c757d](https://via.placeholder.com/10/6c757d?text=+) #6c757d |
+| White | ![#ffffff](https://via.placeholder.com/10/ffffff?text=+) #ffffff |
+
+
+## Acknowledgements
+
+ - [Awesome Readme Templates](https://awesomeopensource.com/project/elangosundar/awesome-README-templates)
+ - [Awesome README](https://github.com/matiassingers/awesome-readme)
+ - [How to write a Good readme](https://bulldogjob.com/news/449-how-to-write-a-good-readme-for-your-github-project)
+
+# Support
+For support, reach out to hummbiotech@gmail.com
