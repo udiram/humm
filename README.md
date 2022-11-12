@@ -121,8 +121,6 @@ Example call: http://127.0.0.1:8000/api/UsersConversations/1
 
 | Color             | Hex                                                                |
 | ----------------- | ------------------------------------------------------------------ |
-| Color             | Hex                                                                |
-| ----------------- | ------------------------------------------------------------------ |
 | Orange | ![#f3933d](https://placehold.co/15x15/f3933d/f3933d.png) #f3933d |
 | Dark Grey | ![#6c757d](https://placehold.co/15x15/6c757d/6c757d.png) #6c757d |
 | Grey | ![#f8f9fa](https://placehold.co/15x15/f8f9fa/f8f9fa.png) #f8f9fa |
