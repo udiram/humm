@@ -43,8 +43,84 @@ HUMM is a smart chatbot that provides cognitive behavioural therapy, resources, 
 
 ![App Screenshot](https://i.imgur.com/tfO8Xi0.png)
 
+
+## API Reference
+
+(0) Getting Bearer Authentication Token ~ GET request
+- endpoint:  http://127.0.0.1:8000/api/users/token/
+
+- json Body input:
+{
+    "username": "admin_11",
+    "password": "123456"
+}
+- this is the format of what you input, and it can be any registered user's credentials
+
+*** You will need an authorization token for all other api calls, and the format of how to input it will be shown in (1). The token isn't user specific, if it's any authentication token it'll work
+*** Furthermore, the json you'll receive has 2 tokens, 1 REFRESH, 1 ACCESS. Use the access one for everything below, we aren't incorporating the Refresh token.
+
+
+(1) GetAllConversations: ~ GET req
+- api call which retrieves all conversations in DB regardless of user
+- Requires a bearer token to Access (can be any user's authentication token)
+- endpoint: http://127.0.0.1:8000/api/GetAllConversations/
+- Header:
+Key: Authorization , Value: Bearer ~PUT TOKEN HERE~
+Ex: Key: Authorization , Value: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoyNTI3MzU5MzMxLCJpYXQiOjE2NjMzNTkzMzEsImp0aSI6ImM3OGEwZDM3NzhlYTQ5ZWU5NmNjMWUwYTA3MmNmMTU5IiwidXNlcl9pZCI6MX0.Kn0vor2sRbgR2hBSNHwdBbuihuW88d0iNox1oROAZa8
+
+(2) GetUsers: ~ GET req
+- endpoint: http://127.0.0.1:8000/api/GetUsers/
+- same authorization input as shown in (1)
+- no other input needed, it just shows all user information. I believe superusers have their password encrypted though, so you'll have to remember those ones.
+
+(3) UsersConversations: ~ GET req
+- get's a list of the user's conversations given the user_id. 
+- You can find a user's Id by using 'GetUsers' and finding the specific user information
+- endpoint: http://127.0.0.1:8000/api/UsersConversations/~PUT USER ID HERE~ (user id will be a digit of some sort)
+Example call: http://127.0.0.1:8000/api/UsersConversations/1
+- Same Authorization input required as (1)
+
+(4) CreateConversation: ~ PUT req
+- endpoint: http://127.0.0.1:8000/api/CreateConversation/
+- Same authorization as (1) required
+- example of JSON Body text you'll need to input:
+    {
+        "conversation_array": [
+            "dance_time_user",
+            "text2_time_bot"
+        ],
+        "owner": 2
+    }
+
+- Input whatever user id you want to connect it to
+- Notice the format of the conversation array, commas are used to split up individual texts, and each text contains 3 pieces of information which is separated by whatever special symbol you guys wish for. The info is 1) Actual Text Input 2) Time it was inputted 3) Whether the user sent it, or the bot.
+
+(5) DeleteConversation: ~ DELETE req
+= endpoint: http://127.0.0.1:8000/api/DeleteConversation/~PUT CONVERSATION ID HERE~/
+- same auth as (1)
+
+(6) CreateUser: ~PUT REQUEST
+- same auth as (1)
+- endpoint: http://127.0.0.1:8000/api/CreateUser/
+- json Body input: 
+    {
+        "password": "romeoandjulietsss",
+        "username": "ramussss",
+        "first_name": "udibhav",
+        "last_name": "ramu",
+        "email": "babayo@as.com"
+    }
+- Notice no need to input an id when creating either a user or a conversation (no conversation id). This is cuz Django handles the ID side of things on it's own
+
+
+(6) DeleteUser: ~ DELETE req
+- same auth as (1)
+- endpoint: http://127.0.0.1:8000/api/DeleteUser/~PUT USER ID HERE~/
+
 ## Color Reference
 
+| Color             | Hex                                                                |
+| ----------------- | ------------------------------------------------------------------ |
 | Color             | Hex                                                                |
 | ----------------- | ------------------------------------------------------------------ |
 | Orange | ![#f3933d](https://placehold.co/15x15/f3933d/f3933d.png) #f3933d |
